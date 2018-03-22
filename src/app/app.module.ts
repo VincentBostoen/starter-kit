@@ -22,7 +22,7 @@ import { AppRoutingModule } from './app-routing.module';
     FormsModule,
     HttpClientModule,
     TranslateModule.forRoot(),
-    IonicModule.forRoot(AppComponent, { locationStrategy: 'path' }),
+    IonicModule.forRoot(AppComponent, { locationStrategy: 'hash' }),
     CoreModule,
     SharedModule,
     HomeModule,
